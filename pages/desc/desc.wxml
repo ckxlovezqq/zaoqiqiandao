@@ -1,0 +1,597 @@
+<body>
+    <form report-submit="">
+        <view class="susMenu-group">
+            <view class="menu-group" style="bottom: 120px">
+                <view class="child-item" data-type="1">
+                    <image src="../../static/images/clock-check.png" style="width: 24px;height: 24px;">
+                    </image>
+                    <view class="child-item__dec">主页</view>
+                </view>
+                <view class="child-item" data-type="3">
+                    <image src="../../static/images/mine-check.png" style="width: 24px;height: 24px">
+                    </image>
+                    <view class="child-item__dec">我的</view>
+                </view>
+                <view class="child-item" data-type="2">
+                    <image src="../../static/images/hot-check.png" style="width: 24px;height: 24px">
+                    </image>
+                    <view class="child-item__dec">发现</view>
+                </view>
+                <view class="menu">
+                    <view class="menu-desc--txt activeSus">快捷导航</view><i class="icon icon_X"></i></view>
+            </view>
+        </view>
+        <view class="susMenu-group-mask hidden">
+            <view class="mask"></view>
+        </view>
+        <view class="fade-model hidden">
+            <view class="popup_packing">
+                <view class="popup_window" style="margin-top: -96px">
+                    <view class="popup_window__hd pb-20">
+                        <text class="title">公告牌公告牌</text>
+                    </view>
+                    <scroll-view scroll-y="" class="popup_window__bd" style="padding: 0 23px 0;min-height: 134px;max-height: 273px">
+                        <div class="scroll-view">
+                            <div style="overflow-x: hidden; overflow-y: auto;" class="scroll-view">
+                                <div style="height: 100%;">
+                                    <text class="habit_notice_content" data-text="null">nullnull</text>
+                                </div>
+                            </div>
+                        </div>
+                    </scroll-view>
+                    <button class="popup_window__ft mt-20" data-action="bindToggleModel" data-classfiy="event" data-mta="closeHabitRule" data-type="5" form-type="submit" hover-class="none">
+                        <view>确定</view>
+                    </button>
+                </view>
+            </view>
+            <button class="mask"></button>
+        </view>
+        <view class="fade-model hidden">
+            <view class="join-alert">
+                <button class="close-icon" data-action="bindToggleModel" data-classfiy="event" data-mta="closeWindow" data-type="3" form-type="submit" hover-class="none">
+                    <i class="icon icon_X"></i>
+                </button>
+                <view class="join-alert__hd mt-10">
+                    <view class="logo">
+                        <image src="http://oss.sharedaka.com/data/join_success.png">
+                            <div style="background-image: url(http://oss.sharedaka.com/data/join_success.png); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                    </view>
+                </view>
+                <view class="join-alert__bd mt-40">
+                    <view class="title">加入成功!</view>
+                    <view class="sub mt-20">验证您的手机号，方便接收打卡提醒</view>
+                </view>
+                <view class="join-alert__ft mt-40">
+                    <button class="btn btn-true" open-type="getPhoneNumber">立即验证</button>
+                </view>
+            </view>
+            <view class="mask"></view>
+        </view>
+        <view class="fade-model hidden">
+            <view class="topic-alert">
+                <button class="close-icon" data-action="bindToggleModel" data-classfiy="event" data-mta="closeTopicWindow" data-type="0" form-type="submit" hover-class="none">
+                    <i class="icon icon_X"></i>
+                </button>
+                <view class="topic-alert__hd">
+                    <view class="title-group">
+                        <view class="title">
+                            <i class="icon icon_wavy_line mr-10"></i>
+                            <text>今日打卡主题 </text>
+                            <i class="icon icon_wavy_line ml-10"></i>
+                        </view>
+                    </view>
+                </view>
+                <scroll-view scroll-y="" class="topic-alert__bd mt-30" style="max-height: 312px">
+                    <div class="scroll-view">
+                        <div style="overflow-x: hidden; overflow-y: auto;" class="scroll-view">
+                            <div style="height: 100%;">
+                                <button class="btn" data-action="bindNavigator" data-classfiy="href" data-mta="topic_detail" data-page="topic_detail" data-url="../topic_detail/topic_detail?habitFrom=habit_detail_alert&amp;topicID=&amp;habitTopicType=&amp;habitID=" form-type="submit" hover-class="none">
+                                    <view class="content">
+                                        <text></text>
+                                    </view>
+                                    <view class="img-ctn mt-20">
+                                        <image mode="widthFix" src="http://oss.sharedaka.com/data/topic_default.png" style="height: 153.931px;">
+                                            <div style="background-image: url(http://oss.sharedaka.com/data/topic_default.png); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                                            <virtual></virtual>
+                                        </image>
+                                    </view>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </scroll-view>
+                <view class="topic-alert__ft mt-30">
+                    <button class="btn" data-action="bindNavigator" data-classfiy="href" data-func="check_topic" data-mta="topic_detail" data-url="../topic_detail/topic_detail?habitFrom=habit_detail_alert&amp;topicID=&amp;habitTopicType=&amp;habitID=" form-type="submit" hover-class="none">
+                        查看全文
+                    </button>
+                </view>
+            </view>
+            <view class="mask"></view>
+        </view>
+        <view class="fade-model hidden">
+            <view class="yearEnd-packing">
+                <button data-action="bindNavigator" data-method="redirectTo" data-url="?habitID=247246&amp;adminRole=&amp;habitFrom=" form-type="submit" hover-class="none">
+                    <view class="yearEnd-group">
+                        <view class="ctn">
+                            <button class="close-icon" data-classfiy="event" data-mta="closeAwardAlert" data-type="17" hover-class="none">
+                                <image src="../../static/icons/close-icon.png">
+                                </image>
+                            </button>
+                            <view class="user-avatar">
+                                <image mode="aspectFill" src="https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKiaiaiadhG1DibbgeVFSnRvaTPTn1ZglTpBs42SGAbXsC5Pr53eGbicCCqibVWUiaTBxVKrRkZr6b1q7m1w/0">
+                                </image>
+                            </view>
+                            <view class="user-name mt-20">
+                                <text>柴凯翔</text>
+                            </view>
+                        </view>
+                        <image class="bg" src="http://oss.sharedaka.com//data/yearEnd_daypic.png">
+                            <div style="background-image: url(http://oss.sharedaka.com//data/yearEnd_daypic.png); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                    </view>
+                </button>
+                <view class="btn-group" style="display:flex;width: 100%;justify-content: center">
+                    <button class="yearEnd-shareBtn" data-action="bindNavigator" data-method="redirectTo" data-url="?habitID=247246&amp;adminRole=&amp;habitFrom=" form-type="submit">
+                        查看我的年终成绩单
+                    </button>
+                </view>
+            </view>
+        </view>
+        <view class="fade-model hidden">
+            <view class="enlist-alert enlist-alert--joinWx">
+                <button class="close-icon" data-action="bindToggleModel" data-classfiy="event" data-mta="closeJoinWx" data-type="4" form-type="submit" hover-class="none">
+                    <image src="../../static/icons/close-icon.png">
+                    </image>
+                </button>
+                <view class="enlist-alert__hd">
+                    <view class="title-group">
+                        <view class="title title--line2">
+                            <view>加入微信群</view>
+                            <view>和小伙伴一起打卡!</view>
+                        </view>
+                        <image class="bg bg--joinWx" src="../../static/icons/alert_bg.png">
+                        </image>
+                    </view>
+                </view>
+                <view class="enlist-alert__bd">
+                    <view class="tips">添加群主微信</view>
+                    <view class="card">
+                        <view class="card__hd">
+                            <image src="http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                                <div style="background-image: url(http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                                <virtual></virtual>
+                            </image>
+                        </view>
+                        <view class="card__bd">
+                            <view class="name">柴凯翔</view>
+                            <view class="num">微信号：null</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="enlist-alert__ft">
+                    <button class="btn btn-true" data-action="bindCopyWxNumber" data-classfiy="event" data-mta="copyWxNumber" data-text="null" form-type="submit" hover-class="none">一键复制群主微信</button>
+                    <button class="btn btn-false" data-action="bindToggleModel" data-classfiy="event" data-mta="closeJoinWx" data-type="4" form-type="submit" hover-class="none">不用，我已经在群里</button>
+                </view>
+            </view>
+            <view class="mask"></view>
+        </view>
+        <view class="fade-model hidden">
+            <view class="topic-alert" style="top: 38px;">
+                <button class="close-icon" data-action="bindToggleModel" data-classfiy="event" data-mta="closeTopicPassWindow" data-type="14" form-type="submit" hover-class="none">
+                    <i class="icon icon_X"></i>
+                </button>
+                <view class="topic-alert__hd">
+                    <view class="title-group">
+                        <view class="title">
+                            <i class="icon icon_wavy_line mr-10"></i>
+                            <text>未解锁打卡主题</text>
+                            <i class="icon icon_wavy_line ml-10"></i>
+                        </view>
+                    </view>
+                </view>
+                <scroll-view scroll-y="" class="topic-alert__bd mt-30" style="max-height: 243px">
+                    <div class="scroll-view">
+                        <div style="overflow-x: hidden; overflow-y: auto;" class="scroll-view">
+                            <div style="height: 100%;">
+                                <button class="btn" hover-class="none">
+                                    <view class="content">
+                                        <text></text>
+                                    </view>
+                                    <view class="checkPoint-box mt-10">第关</view>
+                                    <view class="img-ctn mt-10">
+                                        <image mode="widthFix" src="http://oss.sharedaka.com/undefined">
+                                            <div style="background-image: url(http://oss.sharedaka.com/undefined); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                                            <virtual></virtual>
+                                        </image>
+                                        <view class="img-ctn__bg">
+                                            <i class="icon icon_suo_topic" style="margin-top: 40px;font-size: 33px;line-height: 1"></i>
+                                            <text class="mt-40">还要坚持天才能解锁该主题哦～</text>
+                                        </view>
+                                    </view>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </scroll-view>
+                <view class="topic-alert__ft mt-30">
+                    <button class="btn" data-action="bindToggleModel" data-classfiy="event" data-mta="closeTopicPassWindow" data-type="14" form-type="submit" hover-class="none">
+                        知道了
+                    </button>
+                </view>
+            </view>
+            <view class="mask"></view>
+        </view>
+        <view class="fade-model speed-on-1_5 speed-off-normal hidden">
+            <view class="redPacket-bagging" style="margin-top: 76px">
+                <view class="hd">
+                    <button class="close-btn" data-action="bindCloseRedPacketAlert" form-type="submit" hover-class="none">
+                        <i class="icon icon_X"></i>
+                    </button>
+                </view>
+                <view class="bd" style="margin-top: 139px;">
+                    <view class="ctn">
+                        <view>你坚持打卡
+                            <text style="color: #FFD161;">天天</text>
+                        </view>
+                        <view class="mt-20">赢得了
+                            <text style="color: #FFD161;">个个</text>现金红包</view>
+                    </view>
+                    <image class="bg" src="http://oss.sharedaka.com/data/packet_big.png">
+                        <div style="background-image: url(http://oss.sharedaka.com/data/packet_big.png); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="ft" style="margin-top: 43px">
+                    <button class="redPacket-btn" data-count="undefined" data-id="undefined" data-log-day-count="undefined" data-type="redPacket" hover-class="none" open-type="share">
+                        邀请微信群好友帮忙拆
+                    </button>
+                </view>
+            </view>
+            <view class="mask"></view>
+        </view>
+        <view class="fade-model hidden clock-success-packing clock-success-packing--day">
+            <view class="clock-success-group" style="height: 410px;">
+                <button class="close-icon" data-action="bindToggleModel" data-classfiy="event" data-mta="closeWindow" data-type="18" form-type="submit" hover-class="none">
+                    <i class="icon icon_X"></i>
+                </button>
+                <image class="card-image" data-imgurl="http://oss.sharedaka.com/undefined" mode="aspectFill" src="http://oss.sharedaka.com/undefined">
+                    <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/undefined);"></div>
+                    <virtual></virtual>
+                </image>
+            </view>
+            <view class="btn-group" style="width: 250px;margin: 0 auto">
+                <contact-button class="clock-success__shareCircle" session-from="" style="flex: 1;margin-right: 9px" type="default-light">
+                    <div class="contact-button-wrapper" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABRCAYAAABBuPE1AAAAAXNSR0IArs4c6QAAAsJJREFUeAHtm71KA0EUhbOijT8o6APY2FgoCFYW9nYK/pSWkvTaig9hrY2iYKmdIOgLWGgrqIUgIpKoIOh6RjMQgpid3bOb3cwZOEyMd86d++UmG3fdUklDBERABERABESgGAQCs80wDIcxbUNzUD9U5FHD5k+gchAET1kVYkEeIOFSVkkzynMIkMsZ5SpZkFUkLHonNjOrAeRA85Np/WxBhmklaKcvQP7Ul8UeurJI4kMOgSS9ygIpkCQCJBt1pECSCJBs1JECSSJAslFHCiSJAMlGHSmQJAIkG3WkQJIIkGzUkQJJIkCyUUcKpBsBXOBLY9zCdB36PRVvMrhtqxjRjZcaUq5xw5trNimDvBNI0ptLBxuBJBEg2agjBZJEgGSjjhRIEgGSjTpSIEkESDbqSIEkESDZqCMFkkSAZKOOJIM0dwJ02si0JtuR5naKThvHtiCci5y2j9Oau+vG5frcKffZGIi2JlNapV5ffiZzpjnieEXcart3jj3MQB8R9xw7zLnOiJmuEDfubE5egD2MQQ8R95wozHnrEbLtIKbX2Zi0ALkHoUloC3qHMhn2M5JRxhtMKrhytxPHzFQbZ11e1rBAXqOgRUA0s5fDfv1JUvwuFk/7DNHAS9KR5q1sbuU1IL0fcUDeg9oztOJ7FzZ2z88/CDQ+0eoxjglDiKkC4merWJffF/1g4wzSBY5LbNFBMg42Lrw6NlYgSS+tQAokiQDJRh0pkCQCJJs8deQFqaZ22JznCeQ8COxDL+0gETOn2eseZPbu38CX/zUo8llz/wg5VAyQs9Aj1HI42PoZCoKj0GUrkn7ScawaEPugo/9gOlr6Gw6IAbQJff0F1F8yMSsHxAWo1gwzpp3fywBxArpphOk3kQTVA+IIdFaHeZrASksBsQfahqZEIyEBQMzTX34Jq9FyERABERABERCBXwLfe8eGVVx752oAAAAASUVORK5CYII=);"></div>
+                    <virtual>
+                        <view class="ctn">
+                            <i class="icon icon_friend_circle mr-5"></i>
+                            <text>分享到朋友圈</text>
+                        </view>
+                    </virtual>
+                </contact-button>
+                <button class="clock-success__download" data-action="bindDayShareToCircle" data-classfiy="event" data-mta="saveAndShareDaySign" data-type="dayClock" form-type="submit" hover-class="none" style="background-color: #e4e4e4;color: #333;width: 91px">
+                    保存
+                </button>
+            </view>
+        </view>
+        <view class="fade-model hidden clock-success-packing clock-success-packing--day">
+            <view class="tempAct-packing">
+                <button data-action="bindToActivePage" form-type="submit" hover-class="none">
+                    <view class="tempAct-group">
+                        <view class="ctn">
+                            <button class="close-icon" data-type="19" hover-class="none">
+                                <image src="../../static/icons/close-icon.png">
+                                </image>
+                            </button>
+                        </view>
+                        <image class="bg" src="">
+                            <div style="background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                    </view>
+                </button>
+                <view class="btn-group" style="display:flex;width: 100%;justify-content: center">
+                    <button class="tempAct-shareBtn" data-action="bindToActivePage" form-type="submit">
+                    </button>
+                </view>
+            </view>
+        </view>
+        <view class="pb-100">
+            <view style="position: relative">
+                <view class="banner-bagging" style="position: relative;">
+                    <view class="banner-ctn">
+                        <view class="title">11</view>
+                        <view class="desc mt-10">
+                            <text>1人已参加</text>
+                            <text class="mlr-20">|</text>
+                            <text>0次打卡</text>
+                        </view>
+                        <button class="user-box mt-10" data-action="" data-classfiy="event" data-mta="closeJoinWx" data-type="4" form-type="submit" hover-class="none">
+                            <image class="avatar" mode="aspectFill" src="http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                                <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200);"></div>
+                                <virtual></virtual>
+                            </image>
+                            <view class="name ml-10">柴凯翔</view>
+                        </button>
+                        <button class="invite-btn" data-action="bindNavigator" data-classfiy="href" data-func="invite_friends" data-mta="share_rank" data-url="../share_rank/share_rank?habitID=247246&amp;habitName=11&amp;&amp;isCreateUser=1&amp;curUserRole=1" form-type="submit" hover-class="none">
+                            <i class="icon icon_share"></i>
+                            <text class="ml-10">邀请好友</text>
+                        </button>
+                        <button class="edit-btn" data-action="bindNavigator" data-classfiy="href" data-func="closeEditDetailModel" data-mta="edit_habit_detail" data-url="../habit_create/habit_create?habitID=247246&amp;pagePointer=1" form-type="submit" hover-class="none">
+                            <i class="icon icon_edit"></i>
+                            <text class="ml-10">编辑详情</text>
+                        </button>
+                    </view>
+                    <image class="bg" mode="aspectFill" src="http://oss.sharedaka.com/bannerimg/12_1.jpg?x-oss-process=image/resize,m_mfit,h_375,w_750">
+                        <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/bannerimg/12_1.jpg?x-oss-process=image/resize,m_mfit,h_375,w_750);"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+            </view>
+            <view class="user-bagging">
+                <button class="user-avatar" data-action="bindNavigator" data-func="href_userStory" data-url="../user_story/user_story?openId=ochvq0DdhCo-wTq7wri35MOuGLwM&amp;habitID=247246" form-type="submit" hover-class="none">
+                    <image mode="aspectFill" src="http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                        <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200);"></div>
+                        <virtual></virtual>
+                    </image>
+                </button>
+                <view class="user-ctn ml-20">
+                    <view class="user-ctn__name">
+                        <text class="name">柴凯翔</text>
+                        <button class="edit-btn ml-10" data-action="bindNavigator" data-classfiy="href" data-func="edit_nickname" data-mta="habit_setting" data-url="../habit_setting/habit_setting?isCreateUser=1&amp;joinState=1&amp;habitID=247246&amp;habitData=[object Object]" form-type="submit" hover-class="none">修改昵称</button>
+                    </view>
+                    <view class="user-ctn__desc mt-10">已坚持打卡0天</view>
+                    <view class="line mt-20"></view>
+                    <view class="more-group mt-20">
+                        <button class="item" data-action="bindNavigator" data-classfiy="href" data-func="href_rank" data-mta="habit_rank" data-url="../habit_rank_new/habit_rank_new?habitID=247246&amp;habitFrom=habit_detail&amp;curUserRole=1" form-type="submit" hover-class="none">
+                            <i class="icon icon_trophy"></i>
+                            <text class="ml-10">排行榜</text>
+                        </button>
+                        <button class="item" data-action="bindMakeUserCard" data-classfiy="href" data-mta="habit_achieve" form-type="submit" hover-class="none">
+                            <i class="icon icon_medal"></i>
+                            <text class="ml-10">勋章</text>
+                        </button>
+                    </view>
+                </view>
+                <button class="setting-btn" data-action="bindNavigator" data-classfiy="href" data-func="href_setting" data-mta="habit_setting" data-url="../habit_setting/habit_setting?isCreateUser=1&amp;joinState=1&amp;habitID=247246&amp;habitData=[object Object]" form-type="submit" hover-class="none">设置</button>
+            </view>
+            <view class="common-banner bt-20" data-data="[object Object]">
+                <image mode="widthFix" src="http://oss.sharedaka.com/data/corps_banner_activity2.png" style="width: 100%; height: 79.8904px;">
+                    <div style="background-image: url(http://oss.sharedaka.com/data/corps_banner_activity2.png); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                    <virtual></virtual>
+                </image>
+            </view>
+            <view class="clock-bagging bt-20">
+                <button class="calendar-group mt-20" data-action="bindNavigator" data-classfiy="href" data-func="href_calendar" data-mta="habit_month_total" data-url="../habit_month_total/habit_month_total?habitID=247246&amp;curOpenId=ochvq0DdhCo-wTq7wri35MOuGLwM" form-type="submit" hover-class="none">
+                    <view class="calendar-thead">
+                        <view class="th">一</view>
+                        <view class="th">二</view>
+                        <view class="th">三</view>
+                        <view class="th">四</view>
+                        <view class="th active">今天</view>
+                        <view class="th">六</view>
+                        <view class="th">日</view>
+                    </view>
+                    <view class="calendar-tbody">
+                        <view class="tr">
+                            <text class="item">1</text>
+                        </view>
+                        <view class="tr">
+                            <text class="item">2</text>
+                        </view>
+                        <view class="tr">
+                            <text class="item">3</text>
+                        </view>
+                        <view class="tr">
+                            <text class="item">4</text>
+                        </view>
+                        <view class="tr">
+                            <text class="item">5</text>
+                        </view>
+                        <view class="tr">
+                            <text class="item">6</text>
+                        </view>
+                        <view class="tr">
+                            <text class="item">7</text>
+                        </view>
+                    </view>
+                </button>
+                <view class="line mt-20"></view>
+                <view class="clock-group mt-30 mb-40">
+                    <view style="position: relative">
+                        <button data-action="bindLogCreate" data-classfiy="event" data-mta="clock" form-type="submit" hover-class="none" style="position: relative;">
+                            <view class="clock-handle-wrap n">
+                                <view class="clock-handle-box n">
+                                    <text>打卡</text>
+                                </view>
+                            </view>
+                        </button>
+                    </view>
+                </view>
+                <view class="clock-group mt-50 mb-60" hidden="">
+                    <button data-action="bindLogCreate" data-classfiy="event" data-mta="unClock" form-type="submit" hover-class="none">
+                        <view class="clock-content">
+                            <view class="clock-handle-wrap">
+                                <view class="clock-handle-box">
+                                    <i class="icon icon_true--clock"></i>
+                                </view>
+                            </view>
+                            <view class="content ml-20">
+                                <text>今日已打卡！</text>
+                            </view>
+                        </view>
+                        <view class="tips-content">
+                            <view class="item"></view>
+                        </view>
+                    </button>
+                </view>
+                <view class="clock-form-group"></view>
+                <view class="line"></view>
+                <button class="topic-group" data-action="oldTopic" data-classfiy="href" data-mta="topic_list" form-type="submit" hover-class="none">
+                    <i class="icon icon_topic_logo"></i>
+                    <view class="line mlr-20"></view>
+                    <view class="content">
+                        <view style="color: #576B95;">
+                            <i class="icon icon_add_g mr-15"></i>
+                            <text>点击发布打卡主题</text>
+                        </view>
+                    </view>
+                    <view class="icon">
+                        <i class="icon icon_drop_right" style="font-size: 15px;color: #ccc"></i>
+                    </view>
+                </button>
+            </view>
+            <view class="contract-bagging">
+                <scroll-view scroll-x="" class="contract-packing" style="width:100%;white-space: nowrap;padding: 9px 0 0 0px;box-sizing: border-box">
+                    <div class="scroll-view">
+                        <div style="overflow-x: auto; overflow-y: hidden;" class="scroll-view">
+                            <div style="height: 100%;">
+                                <button class="contract-card scroll" data-action="bindNavigator" data-classfiy="href" data-mta="addContract" data-url="../habit_create/habit_create?habitID=247246&amp;pagePointer=2" form-type="submit" style="width: 340px;box-sizing: border-box">
+                                    <view class="contract-box active" style="justify-content: center">
+                                        <view class="contract-box_hd">
+                                            <view class="icon-wrap">
+                                                <i class="icon icon_add_strong" style="font-size: 21px"></i>
+                                            </view>
+                                        </view>
+                                        <view class="contract-box_bd" style="flex: 0;">
+                                            <view class="title" style="color: #1DACA9;font-weight: normal">
+                                                添加一个新的打卡契约
+                                            </view>
+                                        </view>
+                                    </view>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </scroll-view>
+            </view>
+            <view class="ctn-bagging bt-20">
+                <view class="xui-navbar" id="navBar" style="box-shadow:none;border-top: none;border-bottom: 1px solid #e4e4e4">
+                    <view class="xui-navbar__item active" data-idx="0" style="padding: 10px 0">
+                        <view class="xui-navbar__title">日记</view>
+                    </view>
+                    <view class="xui-navbar__item" data-idx="1" style="padding: 10px 0">
+                        <view class="xui-navbar__title">详情</view>
+                    </view>
+                    <view class="xui-navbar__item" data-idx="2" style="padding: 10px 0">
+                        <view class="xui-navbar__title">成员</view>
+                    </view>
+                    <view class="xui-navbar__slider" style="transform: translate(11.7vw);width:10vw;background-color: #1DACA9"></view>
+                </view>
+                <view class="xui-tab__panel">
+                    <view class="xui-tab__content" style="min-height: 192px;">
+                        <view class="feed-bagging"></view>
+                        <view class="weui-loadmore weui-loadmore_line">
+                            <view class="weui-loadmore__tips weui-loadmore__tips_in-line">暂无打卡日记</view>
+                        </view>
+                    </view>
+                    <view class="xui-tab__content" hidden="" style="min-height: 192px;">
+                        <view class="admin-bagging">
+                            <view class="admin-group">
+                                <view class="admin-group_hd">
+                                    <image class="head" mode="aspectFill" src="http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                                        <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200);"></div>
+                                        <virtual></virtual>
+                                    </image>
+                                </view>
+                                <view class="admin-group_bd">
+                                    <view class="title-group" style="width: 220px">
+                                        <view class="title-group_title">柴凯翔</view>
+                                        <view class="title-group_sub">群主</view>
+                                    </view>
+                                    <button class="content-group" hover-class="none" style="-webkit-line-clamp: 3">
+                                        <text data-text="一起打卡吧，每个人都能成为更好的自己">一起打卡吧，每个人都能成为更好的自己一起打卡吧，每个人都能成为更好的自己</text>
+                                    </button>
+                                </view>
+                            </view>
+                        </view>
+                        <view class="habit-brief-packing bt-20" style="padding:14px 0px;">
+                            <view class="packing-title" style="padding: 0 9px;">
+                                <view class="title">
+                                    <text class="line"></text>
+                                    <text>活动详情</text>
+                                </view>
+                            </view>
+                            <view class="mt-20" style="padding: 0 9px;font-size: 13px">暂无活动详情描述</view>
+                        </view>
+                    </view>
+                    <view class="xui-tab__content" hidden="" style="min-height: 192px;">
+                        <view class="personal-list-bagging" style="min-height: 384px">
+                            <view class="xui-search-bar">
+                                <view class="xui-search-bar__form">
+                                    <view class="xui-search-bar__box">
+                                        <icon class="xui-icon-search_in-box" size="14" type="search"><i class="icon-search" style="font-size: 14px;"></i>
+                                            <virtual></virtual>
+                                        </icon>
+                                        <input class="xui-search-bar__input"/>
+                                        <div>
+                                            <input style="visibility:hidden" disabled=""/>
+                                            <div parse-text-content="" class="input-placeholder" style="height: 0px; line-height: 0px; width: 0px;"> </div>
+                                            <div style=";display:none;" class="input-placeholder "></div>
+                                        </div>
+                                        <virtual></virtual>
+                                    </view>
+                                    <label class="xui-search-bar__label" data-url="../habit_user_list/habit_user_list?habitID=247246">
+                                        <i class="icon icon_search_new mr-20"></i>
+                                        <text style="font-size: 13px">搜索成员</text>
+                                    </label>
+                                </view>
+                            </view>
+                            <view class="no-data-box">
+                                <view class="no-data-image">
+                                    <image src="http://oss.sharedaka.com//data/null_list.png">
+                                        <div style="background-image: url(http://oss.sharedaka.com//data/null_list.png); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                                        <virtual></virtual>
+                                    </image>
+                                </view>
+                                <view class="no-data-desc">
+                                    <view>暂时没有成员哦～</view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <button class="weui-btn create-btn" data-action="bindNavigator" data-classfiy="event" data-method="redirectTo" data-mta="change_study_entry" data-url="../admin_module/pages/habit_detail_old/habit_detail_old?habitID=247246" form-type="submit">
+                <view>管理入口</view>
+            </button>
+        </view>
+    </form>
+    <audio id="successLog" src="http://wechat.zhuihuodong.com/data/success.wav">
+        <audio style="display: none;" src="http://wechat.zhuihuodong.com/data/success.wav"></audio>
+        <div style="display: none;" class="audio-default">
+            <div class="audio-left">
+                <div class="audio-button play"></div>
+            </div>
+            <div class="audio-right">
+                <div class="audio-time" parse-text-content="">00:00</div>
+                <div class="audio-info">
+                    <div class="audio-name" parse-text-content="">未知歌曲</div>
+                    <div class="audio-author" parse-text-content="">未知作者</div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+        <virtual></virtual>
+    </audio>
+    <audio id="myAudio" action="{method:pause}">
+        <audio style="display: none;"></audio>
+        <div style="display: none;" class="audio-default">
+            <div class="audio-left">
+                <div class="audio-button play"></div>
+            </div>
+            <div class="audio-right">
+                <div class="audio-time" parse-text-content="">00:00</div>
+                <div class="audio-info">
+                    <div class="audio-name" parse-text-content="">未知歌曲</div>
+                    <div class="audio-author" parse-text-content="">未知作者</div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+        <virtual></virtual>
+    </audio>
+</body>

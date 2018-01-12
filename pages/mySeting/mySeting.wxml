@@ -1,0 +1,86 @@
+<body>
+    <form report-submit="">
+        <view class="menu-group mt-20">
+            <button class="avatar-item xui-cell xui-cell_access" data-action="bindEditUserAvatar" form-type="submit" hover-class="none">
+                <view class="xui-cell__hd">
+                    <text>头像</text>
+                </view>
+                <view class="xui-cell__bd"></view>
+                <view class="xui-cell__ft xui-cell__ft_in-access">
+                    <view class="avatar-box">
+                        <image mode="aspectFill" src="http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200);"></div>
+                            <virtual></virtual>
+                        </image>
+                    </view>
+                </view>
+            </button>
+            <button class="bg-item xui-cell xui-cell_access" data-action="bindNavigator" data-func="upDateUserBanner" data-url="../user_data_banner/user_data_banner" form-type="submit" hover-class="none">
+                <view class="xui-cell__hd">
+                    <text>个人主页背景图</text>
+                </view>
+                <view class="xui-cell__bd"></view>
+                <view class="xui-cell__ft xui-cell__ft_in-access">
+                    <view class="bg-box">
+                        <image mode="aspectFill" src="http://oss.sharedaka.com/data/user_banner_5.jpg">
+                            <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/data/user_banner_5.jpg);"></div>
+                            <virtual></virtual>
+                        </image>
+                    </view>
+                </view>
+            </button>
+            <button class="xui-cell xui-cell_access" data-action="bindNavigator" data-func="upDateName" data-url="../user_data_input/user_data_input?type=0;params=柴凯翔" form-type="submit" hover-class="none">
+                <view class="xui-cell__hd">
+                    <text>名字</text>
+                </view>
+                <view class="xui-cell__bd"></view>
+                <view class="xui-cell__ft xui-cell__ft_in-access">柴凯翔</view>
+            </button>
+            <button class="xui-cell xui-cell_access" data-action="bindNavigator" data-func="upDateWechatNumber" data-url="../user_data_input/user_data_input?type=1;params=" form-type="submit" hover-class="none">
+                <view class="xui-cell__hd">
+                    <text>微信号</text>
+                </view>
+                <view class="xui-cell__bd"></view>
+                <view class="xui-cell__ft xui-cell__ft_in-access">未填写</view>
+            </button>
+            <view class="xui-cell xui-cell_access">
+                <view class="xui-cell__hd">
+                    <text>出生日期</text>
+                </view>
+                <view class="xui-cell__bd"></view>
+                <view class="xui-cell__ft xui-cell__ft_in-access">
+                    <picker end="2018-01-08" mode="date" start="1900-01-01" value="1980-01-01">
+                        <div>
+                            未填写
+                        </div>
+                    </picker>
+                </view>
+            </view>
+            <button class="xui-cell xui-cell_access" data-action="bindSelectedSex" form-type="submit" hover-class="none">
+                <view class="xui-cell__hd">
+                    <text>性别</text>
+                </view>
+                <view class="xui-cell__bd"></view>
+                <view class="xui-cell__ft xui-cell__ft_in-access">男</view>
+            </button>
+        </view>
+        <view class="menu-group mt-20">
+            <button class="xui-cell xui-cell_access" data-action="bindNavigator" data-func="upDateSignature" data-url="../user_data_input/user_data_input?type=2;params=" form-type="submit" hover-class="none">
+                <view class="xui-cell__hd">
+                    <text>个性签名</text>
+                </view>
+                <view class="xui-cell__bd"></view>
+                <view class="xui-cell__ft xui-cell__ft_in-access" style="width: 201px; overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">一句话介绍你自己</view>
+            </button>
+            <button class="xui-cell xui-cell_access" data-action="bindNavigator" data-func="href_user_selected_tag" data-url="../user_selected_tag/user_selected_tag?habitFrom=user_date" form-type="submit" hover-class="none">
+                <view class="xui-cell__hd">
+                    <text>兴趣标签</text>
+                </view>
+                <view class="xui-cell__bd"></view>
+                <view class="xui-cell__ft xui-cell__ft_in-access" style="width: 201px; overflow: hidden;text-overflow:ellipsis;white-space: nowrap;">
+                    <text>选择兴趣，让别人更了解你</text>
+                </view>
+            </button>
+        </view>
+    </form>
+</body>

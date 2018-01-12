@@ -1,0 +1,80 @@
+<view class="page">
+    <form report-submit="">
+        <view class="fade-model hidden">
+            <view class="join-alert">
+                <button class="close-icon" data-action="bindToggleModel" data-classfiy="event" data-mta="closePhoneWindow" data-type="phone" data-zhuge="关闭电话号码验证" form-type="submit" hover-class="none"><i class="icon icon_X"></i></button>
+                <view class="join-alert__hd mt-10">
+                    <view class="logo">
+                        <image src="http://oss.sharedaka.com//data/join_success.png">
+                            <div style="background-image: url(http://oss.sharedaka.com//data/join_success.png); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                    </view>
+                </view>
+                <view class="join-alert__bd mt-40">
+                    <view class="title">群主身份认证</view>
+                    <view class="sub mt-20">请验证手机号，接收学员通知</view>
+                </view>
+                <view class="join-alert__ft mt-40">
+                    <button class="btn btn-true" open-type="getPhoneNumber">立即验证</button>
+                </view>
+            </view>
+            <view class="mask"></view>
+        </view>
+        <view class="packing">
+            <view class="title">活动名称</view>
+            <view class="form-item mt-20">
+                <input class="input input--normal" data-type="habitName" placeholder="输入活动标题" value=""/>
+                <virtual></virtual>
+            </view>
+        </view>
+        <view class="packing bt-20" style="transition:.3s ease-in-out all;height: 96px;">
+            <view class="title">开始结束时间</view>
+            <view class="form-item mt-20">
+                <view class="radio-box" data-idx="0" data-type="timerPointer" data-value="1">
+                    <view class="radio active">
+                        <view class="selected"></view>
+                    </view>
+                    <text class="des">不限日期，长期打卡</text>
+                </view>
+                <view class="radio-box mt-20 pb-30" data-idx="1" data-type="timerPointer" data-value="0">
+                    <view class="radio">
+                        <view class="selected"></view>
+                    </view>
+                    <text class="des">指定开始结束日期</text>
+                </view>
+            </view>
+            <view class="specified-date">
+                <view class="date-group">
+                    <text class="date-group_title">开始日期：</text>
+                    <picker class="date-group_picker" data-type="begin" mode="date" start="2018-01-04" value="2018-01-05">
+                        <div>
+                            <text>2018-01-05</text>
+                            <i class="icon icon_calender ml-25"></i>
+                        </div>
+                    </picker>
+                </view>
+                <view class="date-group mt-20">
+                    <text class="date-group_title">结束日期：</text>
+                    <picker class="date-group_picker" data-type="end" mode="date" start="2018-01-05" value="2018-01-06">
+                        <div>
+                            <text>2018-01-06</text>
+                            <i class="icon icon_calender ml-25"></i>
+                        </div>
+                    </picker>
+                </view>
+            </view>
+        </view>
+        <view class="pb-20">
+            <view class="packing packing--list bt-20" style="border-bottom: 1px solid #e1e1e1">
+                <view class="switch-item">
+                    <view class="title">开启报名费</view>
+                    <view class="switch-checkbox" data-type="enlist" style="margin-right: 9px"></view>
+                </view>
+            </view>
+        </view>
+        <view class="full-w" style="margin-top: 57px;padding-bottom: 38px">
+            <button class="btn normal" data-action="bindSwitchPage" data-classfiy="event" data-mta="saveHabitBaseInfo" data-type="1" form-type="submit">提交</button>
+        </view>
+    </form>
+</view>

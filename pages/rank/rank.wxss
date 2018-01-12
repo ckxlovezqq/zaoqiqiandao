@@ -1,0 +1,435 @@
+.adminetype .ico {
+  background: url(http://static3t.jingdaka.com/images/sprites_admin.png?v=24);
+  background-repeat: no-repeat;
+  background-size: 144px;
+}
+
+.container {
+  padding-bottom: 9px;
+}
+
+.title-top {
+  background: #22dd82;
+  overflow: hidden;
+}
+
+.adminetype.title-top {
+  background: #4f598f;
+  overflow: hidden;
+}
+
+.title-top .h2 {
+  text-align: center;
+  margin-top: 14px;
+}
+
+.title-top .h2 .ico {
+  width: 14px;
+  height: 14px;
+  background-position: -72px 0;
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  margin-top: -8px;
+}
+
+.title-top .h2 wx-span {
+  position: relative;
+  padding-left: 19px;
+  font-size: 13px;
+  color: #0c9653;
+  line-height: 19px;
+}
+
+.adminetype.title-top .h2 wx-span {
+  color: #353c63;
+}
+
+.title-top .title {
+  width: 232px;
+  text-align: center;
+  margin: 14px auto 28px auto;
+  font-size: 15px;
+  color: #0c9653;
+  line-height: 21px;
+}
+
+.adminetype.title-top .title {
+  color: #353c63;
+}
+
+.title-top .tit_left {
+  width: 14px;
+  height: 14px;
+  background-position: -58px -29px;
+  position: absolute;
+  left: 28px;
+  top: 33px;
+}
+
+.title-top .tit_right {
+  width: 14px;
+  height: 14px;
+  background-position: -72px -29px;
+  position: absolute;
+  right: 28px;
+  top: 33px;
+}
+
+.ranking {
+  width: 360px;
+  height: 52px;
+  background: url(http://jingdaka.oss-cn-shanghai.aliyuncs.com/images/bg_ranking.png?v=1);
+  background-repeat: no-repeat;
+  background-size: 360px;
+  position: relative;
+}
+
+.adminetype.ranking {
+  width: 360px;
+  height: 52px;
+  background: url(http://static3t.jingdaka.com/images/bg_ranking_admin.png?v=1);
+  background-repeat: no-repeat;
+  background-size: 360px;
+  position: relative;
+}
+
+/* .rankMonthly {
+  background-position: 0 -106px;
+} */
+
+.rankWeekly {
+  background-position: 0 -159px;
+}
+
+.rankMonthly.admin {
+  background-position: 0 0;
+}
+
+.rankWeekly.admin {
+  background-position: 0 -53px;
+}
+
+.switch {
+  border: 1px solid #cfcfcf;
+  width: 75px;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -39px;
+  bottom: -16px;
+  border-radius: 20px;
+  font-size: 9px;
+  color: #cfcfcf;
+  line-height: 20px;
+  z-index: 97;
+}
+
+.ranking-user {
+  position: relative;
+  margin-top: 38px;
+}
+
+.ranking-user .user {
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  width: 288px;
+  position: relative;
+  left: 50%;
+  margin-left: -144px;
+  top: 24px;
+  padding-bottom: 1px;
+}
+
+.ranking-user .user .first-block {
+  padding: 12px 14px;
+  height: 62px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.ranking-user .user .first-block wx-image {
+  width: 62px;
+  height: 62px;
+  border-radius: 62px;
+  border: 2px solid #fff;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.14);
+}
+
+.ranking-user .user .first-block .nick-box {
+  font-size: 14px;
+  color: #3c4856;
+  width: 144px;
+  height: 62px;
+  margin-left: 9px;
+  margin-right: 19px;
+  display: table;
+}
+
+.ranking-user .user .first-block .nick-box .nick {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ranking-user .user .first-block .achievement {
+  width: 57px;
+  height: 30px;
+  font-size: 11px;
+  color: #22dd82;
+  border: 1px solid #22dd82;
+  border-radius: 4px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.ranking-user .user .second-block {
+  margin: 0 72px 7px 72px;
+  text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.ranking-user .user .second-block .count {
+  font-size: 16px;
+  color: #3c4856;
+  margin-bottom: 4px;
+}
+
+.ranking-user .user .second-block .text {
+  font-size: 10px;
+  color: #8b97a4;
+}
+
+.ranking-user .user .second-block .line {
+  width: 1px;
+  height: 14px;
+  background-color: #edf0f3;
+}
+
+.ranking-list {
+  background: #fff;
+  padding-top: 38px;
+  padding-bottom: 9px;
+}
+
+.ranking-list .people {
+  font-size: 11px;
+  color: #cfcfcf;
+  text-align: center;
+  line-height: 28px;
+  margin-bottom: 9px;
+}
+
+.ranking-list .list {
+  margin: 0 14px;
+}
+
+.ranking-list .list .ul .li {
+  height: 42px;
+  padding: 12px 0;
+}
+
+.ranking-list .list .ul .li .img {
+  width: 80px;
+  float: left;
+  position: relative;
+}
+
+.ranking-list .list .ul .li .img .rank {
+  width: 48px;
+  height: 48px;
+  background: url(http://jingdaka.oss-cn-shanghai.aliyuncs.com/images/bg_ranking.png);
+  background-repeat: no-repeat;
+  background-size: 360px;
+  background-position: -144px -212px;
+  position: absolute;
+  left: -3px;
+  top: -3px;
+  line-height: 48px;
+  text-align: center;
+  font-size: 13px;
+  color: #8c8c8c;
+  overflow: hidden;
+}
+
+.ranking-list .list .ul .no1 .img .rank {
+  background-position: 0 -212px;
+  text-indent: -480px;
+}
+
+.ranking-list .list .ul .no2 .img .rank {
+  background-position: -48px -212px;
+  text-indent: -480px;
+}
+
+.ranking-list .list .ul .no3 .img .rank {
+  background-position: -96px -212px;
+  text-indent: -480px;
+}
+
+.ranking-list .list .ul .li .img wx-image {
+  width: 42px;
+  height: 42px;
+  border-radius: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 80;
+}
+
+.ranking-list .list .ul .li .text {
+  height: 42px;
+  line-height: 42px;
+  font-size: 13px;
+  color: #8c8c8c;
+  overflow: hidden;
+}
+
+.ranking-list .list .ul .li .text .fl {
+  float: left;
+  margin-left: 90px;
+}
+
+.ranking-list .list .ul .li .text .fl wx-text {
+  width: 177px;
+  display: block;
+}
+
+.ranking-list .list .ul .li .text .fr {
+  float: right;
+}
+
+.switch-rank-container {
+  position: relative;
+  height: 21px;
+  margin-top: 14px;
+}
+
+.switch-rank {
+  border: 1px solid #cfcfcf;
+  width: 76px;
+  height: 21px;
+  text-align: center;
+  position: absolute;
+  right: 14px;
+  border-radius: 20px;
+  font-size: 9px;
+  color: #8c8c8c;
+  line-height: 21px;
+  z-index: 97;
+}
+
+.user-profile {
+  position: absolute;
+  text-align: center;
+  width: 134px;
+  left: 76px;
+  top: -36px;
+}
+
+.user-profile wx-image {
+  width: 71px;
+  height: 71px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.14);
+}
+
+.user-profile .nick {
+  display: inline-block;
+  width: 96px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  margin-top: 14px;
+}
+
+.ranking-user .user .rank {
+  height: 100px;
+  padding-top: 22px;
+  box-sizing: border-box;
+}
+
+.rank .item {
+  display: inline-block;
+  width: 108px;
+  text-align: center;
+  line-height: 29px;
+}
+
+.rank .item:first-child {
+  margin-right: 71px;
+}
+
+.rank .item-name {
+  font-size: 11px;
+  color: #cfcfcf;
+  display: block;
+}
+
+.rank .item-data {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.operations .btn {
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+  height: 38px;
+  line-height: 38px;
+  font-size: 11px;
+  color: #8b97a4;
+}
+
+.btn wx-button {
+  background-color: #fff;
+  border-radius: 0;
+  padding: 0;
+  overflow: inherit;
+  font-size: 11px;
+  color: #8b97a4;
+  text-decoration: none;
+}
+
+.btn wx-button::after {
+  border: none;
+}
+
+.operations .ico {
+  display: inline-block;
+  line-height: 38px;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.operations .vertical-line {
+  display: inline-block;
+  height: 14px;
+  vertical-align: middle;
+  width: 1px;
+  background-color: #edf0f3;
+  margin-top: 4px;
+}
+
+.icon-achivement {
+  background-position: 0 -15px;
+}
+
+.icon-share {
+  background-position: -54px -345px;
+}

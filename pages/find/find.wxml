@@ -1,0 +1,350 @@
+<form report-submit="">
+    <swiper autoplay="" circular="" class="xf-banner" duration="500" indicator-active-color="#fff" indicator-color="rgba(255,255,255,.3)" indicator-dots="" interval="3000" current="0" current-item-id="">
+        <div class="swiper-wrapper">
+            <div class="swiper-slides">
+                <div class="swiper-slide-frame" style="height: 100%; width: 100%; transform: translate(0%, 0px) translateZ(0px);">
+                    <swiper-item class="xf-banner__item" style="position: absolute; width: 100%; height: 100%; transform: translate(0%, 0px) translateZ(0px);">
+                        <button data-action="bindNavigator" data-classfiy="href" data-content="undefined" data-habitid="0" data-mta="habit_detail" data-noticeurl="../activity/group_pk/group_pk?habitFrom=hot" data-sort="0" data-source="banner" data-url="../habit_detail/habit_detail?habitID=0&amp;habitForm=hot" form-type="submit" hover-class="none">
+                            <image class="slide-image" mode="aspectFill" src="http://oss.sharedaka.com/data/hot_slider1.jpeg?x-oss-process=image/resize,m_mfit,h_375,w_750">
+                                <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/data/hot_slider1.jpeg?x-oss-process=image/resize,m_mfit,h_375,w_750);">
+                                </div>
+                                <virtual></virtual>
+                            </image>
+                            <text>
+                                data/hot_slider1.jpeg</text>
+                        </button>
+                    </swiper-item>
+                    <swiper-item class="xf-banner__item" style="position: absolute; width: 100%; height: 100%; transform: translate(100%, 0px) translateZ(0px);">
+                        <button data-action="bindNavigator" data-classfiy="href" data-content="undefined" data-habitid="0" data-mta="habit_detail" data-noticeurl="../activity/final_report/final_report?habitFrom=hot&amp;adminRole=0&amp;habitID=0" data-sort="1" data-source="banner" data-url="../habit_detail/habit_detail?habitID=0&amp;habitForm=hot" form-type="submit" hover-class="none">
+                            <image class="slide-image" mode="aspectFill" src="http://oss.sharedaka.com/data/hot_slider2.jpeg?x-oss-process=image/resize,m_mfit,h_375,w_750">
+                                <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/data/hot_slider2.jpeg?x-oss-process=image/resize,m_mfit,h_375,w_750);"></div>
+                                <virtual></virtual>
+                            </image>
+                            <text>data/hot_slider2.jpegd</text>
+                        </button>
+                    </swiper-item>
+                </div>
+            </div>
+            <div class="swiper-dots swiper-dots-horizontal">
+                <div data-dot-index="0" class="swiper-dot swiper-dot-active" style="background-color: rgb(255, 255, 255);"></div>
+                <div data-dot-index="1" class="swiper-dot" style="background-color: rgba(255, 255, 255, 0.298039);"></div>
+            </div>
+        </div>
+    </swiper>
+    <view class="tag-area mt-20">
+        <view class="tag-item selected" data-tag="全部">
+            全部
+        </view>
+        <view class="tag-item" data-tag="阅读">
+            阅读
+        </view>
+        <view class="tag-item" data-tag="英语">
+            英语
+        </view>
+        <view class="tag-item" data-tag="亲子">
+            亲子
+        </view>
+    </view>
+    <view class="card-list">
+        <button data-action="bindNavigator" data-classfiy="href" data-habitid="102931" data-mta="habit_detail" data-sort="0" data-source="card" data-url="../habit_detail/habit_detail?habitID=102931&amp;habitFrom=hot" form-type="submit" hover-class="none">
+            <view class="card-item-one">
+                <view class="card-item-left">
+                    <image src="http://oss.sharedaka.com/FvBaiVjbUVvE3zS15CRH5DTFqYuF?x-oss-process=image/resize,m_mfit,h_200,w_300">
+                        <div style="background-image: url(http://oss.sharedaka.com/FvBaiVjbUVvE3zS15CRH5DTFqYuF?x-oss-process=image/resize,m_mfit,h_200,w_300); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="card-item-right">
+                    <view class="card-item-title">
+                        <text>每天学点管理知识</text>
+                    </view>
+                    <view class="card-item-intro">
+                        <text>每天10分钟阅读</text>
+                    </view>
+                    <view class="card-item-author">
+                        <image class="card-item-avatar" src="http://oss.sharedaka.com/ochvq0Ab2Pgp8JzJtD9Bkhak9Wt41508908192?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-image: url(http://oss.sharedaka.com/ochvq0Ab2Pgp8JzJtD9Bkhak9Wt41508908192?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                        <text>小氢</text>
+                    </view>
+                    <view class="card-item-amount">
+                        <view>4449人参加</view>
+                        <view class="line">|</view>
+                        <view>7144次打卡</view>
+                    </view>
+                </view>
+            </view>
+        </button>
+        <button data-action="bindNavigator" data-classfiy="href" data-habitid="55031" data-mta="habit_detail" data-sort="1" data-source="card" data-url="../habit_detail/habit_detail?habitID=55031&amp;habitFrom=hot" form-type="submit" hover-class="none">
+            <view class="card-item-one">
+                <view class="card-item-left">
+                    <image src="http://oss.sharedaka.com/FnM6Fodg9eiE5gTRXpgWdODJW7tR?x-oss-process=image/resize,m_mfit,h_200,w_300">
+                        <div style="background-image: url(http://oss.sharedaka.com/FnM6Fodg9eiE5gTRXpgWdODJW7tR?x-oss-process=image/resize,m_mfit,h_200,w_300); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="card-item-right">
+                    <view class="card-item-title">
+                        <text>晨间朗读者</text>
+                    </view>
+                    <view class="card-item-intro">
+                        <text>每日朗读英语名著</text>
+                    </view>
+                    <view class="card-item-author">
+                        <image class="card-item-avatar" src="http://oss.sharedaka.com/20171231150202348GdEZXy.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-image: url(http://oss.sharedaka.com/20171231150202348GdEZXy.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                        <text>英语研究僧Jackie</text>
+                    </view>
+                    <view class="card-item-amount">
+                        <view>2006人参加</view>
+                        <view class="line">|</view>
+                        <view>17002次打卡</view>
+                    </view>
+                </view>
+            </view>
+        </button>
+        <button data-action="bindNavigator" data-classfiy="href" data-habitid="126228" data-mta="habit_detail" data-sort="2" data-source="card" data-url="../habit_detail/habit_detail?habitID=126228&amp;habitFrom=hot" form-type="submit" hover-class="none">
+            <view class="card-item-one">
+                <view class="card-item-left">
+                    <image src="http://oss.sharedaka.com/FpDiEMdCfnaq9j3tiWSiwIUZrjKh?x-oss-process=image/resize,m_mfit,h_200,w_300">
+                        <div style="background-image: url(http://oss.sharedaka.com/FpDiEMdCfnaq9j3tiWSiwIUZrjKh?x-oss-process=image/resize,m_mfit,h_200,w_300); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="card-item-right">
+                    <view class="card-item-title">
+                        <text>背出所有《走遍美国》, 遗忘? 不存在</text>
+                    </view>
+                    <view class="card-item-intro">
+                        <text>神奇记忆法，每天5分钟练口语</text>
+                    </view>
+                    <view class="card-item-author">
+                        <image class="card-item-avatar" src="http://oss.sharedaka.com/ochvq0HQKTYHbbWAXHoH24N_EuaA1508130583?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-image: url(http://oss.sharedaka.com/ochvq0HQKTYHbbWAXHoH24N_EuaA1508130583?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                        <text>JoeJoe</text>
+                    </view>
+                    <view class="card-item-amount">
+                        <view>2960人参加</view>
+                        <view class="line">|</view>
+                        <view>16687次打卡</view>
+                    </view>
+                </view>
+            </view>
+        </button>
+        <button data-action="bindNavigator" data-classfiy="href" data-habitid="109648" data-mta="habit_detail" data-sort="3" data-source="card" data-url="../habit_detail/habit_detail?habitID=109648&amp;habitFrom=hot" form-type="submit" hover-class="none">
+            <view class="card-item-one">
+                <view class="card-item-left">
+                    <image src="http://oss.sharedaka.com/tmp_0e1184e3a655eaf50358565da427c352.jpg?x-oss-process=image/resize,m_mfit,h_200,w_300">
+                        <div style="background-image: url(http://oss.sharedaka.com/tmp_0e1184e3a655eaf50358565da427c352.jpg?x-oss-process=image/resize,m_mfit,h_200,w_300); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="card-item-right">
+                    <view class="card-item-title">
+                        <text>地道发音，每日一句(100天)</text>
+                    </view>
+                    <view class="card-item-intro">
+                        <text>少儿英语每日跟读</text>
+                    </view>
+                    <view class="card-item-author">
+                        <image class="card-item-avatar" src="http://oss.sharedaka.com/20171227230730992gczyGk.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-image: url(http://oss.sharedaka.com/20171227230730992gczyGk.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                        <text>RexRex</text>
+                    </view>
+                    <view class="card-item-amount">
+                        <view>1849人参加</view>
+                        <view class="line">|</view>
+                        <view>8681次打卡</view>
+                    </view>
+                </view>
+            </view>
+        </button>
+        <button data-action="bindNavigator" data-classfiy="href" data-habitid="83760" data-mta="habit_detail" data-sort="4" data-source="card" data-url="../habit_detail/habit_detail?habitID=83760&amp;habitFrom=hot" form-type="submit" hover-class="none">
+            <view class="card-item-one">
+                <view class="card-item-left">
+                    <image src="http://oss.sharedaka.com/tmp_e4fe2d405192da3c2c08e3f7d224302c4fbcc575040757c1.jpg?x-oss-process=image/resize,m_mfit,h_200,w_300">
+                        <div style="background-image: url(http://oss.sharedaka.com/tmp_e4fe2d405192da3c2c08e3f7d224302c4fbcc575040757c1.jpg?x-oss-process=image/resize,m_mfit,h_200,w_300); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="card-item-right">
+                    <view class="card-item-title">
+                        <text>137亲子经典晨读</text>
+                    </view>
+                    <view class="card-item-intro">
+                        <text>与孩子晨读国学经典</text>
+                    </view>
+                    <view class="card-item-author">
+                        <image class="card-item-avatar" src="http://oss.sharedaka.com/ochvq0C_57tdjUvEwtXup9jMVFoA1508235509?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-image: url(http://oss.sharedaka.com/ochvq0C_57tdjUvEwtXup9jMVFoA1508235509?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                        <text>佳佳</text>
+                    </view>
+                    <view class="card-item-amount">
+                        <view>1311人参加</view>
+                        <view class="line">|</view>
+                        <view>10731次打卡</view>
+                    </view>
+                </view>
+            </view>
+        </button>
+        <button data-action="bindNavigator" data-classfiy="href" data-habitid="170356" data-mta="habit_detail" data-sort="5" data-source="card" data-url="../habit_detail/habit_detail?habitID=170356&amp;habitFrom=hot" form-type="submit" hover-class="none">
+            <view class="card-item-one">
+                <view class="card-item-left">
+                    <image src="http://oss.sharedaka.com/tmp_3f1c9c520215a99402582a53f220f1bc.jpg?x-oss-process=image/resize,m_mfit,h_200,w_300">
+                        <div style="background-image: url(http://oss.sharedaka.com/tmp_3f1c9c520215a99402582a53f220f1bc.jpg?x-oss-process=image/resize,m_mfit,h_200,w_300); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="card-item-right">
+                    <view class="card-item-title">
+                        <text>100天搞定托福词汇【莉创教育】</text>
+                    </view>
+                    <view class="card-item-intro">
+                        <text>每天背点托福词汇</text>
+                    </view>
+                    <view class="card-item-author">
+                        <image class="card-item-avatar" src="http://oss.sharedaka.com/ochvq0DvY318Bey29k7ua9gfd_tg1512212067?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-image: url(http://oss.sharedaka.com/ochvq0DvY318Bey29k7ua9gfd_tg1512212067?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                        <text>小莉老师Leah</text>
+                    </view>
+                    <view class="card-item-amount">
+                        <view>826人参加</view>
+                        <view class="line">|</view>
+                        <view>1024次打卡</view>
+                    </view>
+                </view>
+            </view>
+        </button>
+        <button data-action="bindNavigator" data-classfiy="href" data-habitid="217853" data-mta="habit_detail" data-sort="6" data-source="card" data-url="../habit_detail/habit_detail?habitID=217853&amp;habitFrom=hot" form-type="submit" hover-class="none">
+            <view class="card-item-one">
+                <view class="card-item-left">
+                    <image src="http://oss.sharedaka.com/FhXfHlgcU7dgl7Qnseo2f_uhPeqZ?x-oss-process=image/resize,m_mfit,h_200,w_300">
+                        <div style="background-image: url(http://oss.sharedaka.com/FhXfHlgcU7dgl7Qnseo2f_uhPeqZ?x-oss-process=image/resize,m_mfit,h_200,w_300); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="card-item-right">
+                    <view class="card-item-title">
+                        <text>【原版自然拼读 美国幼儿园小学拼读教程】</text>
+                    </view>
+                    <view class="card-item-intro">
+                        <text>每天陪孩子学英语拼读</text>
+                    </view>
+                    <view class="card-item-author">
+                        <image class="card-item-avatar" src="http://oss.sharedaka.com/img/ochvq0KvV1OrqkCt5ve0-MD3ca4I1515076878650.jpg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-image: url(http://oss.sharedaka.com/img/ochvq0KvV1OrqkCt5ve0-MD3ca4I1515076878650.jpg?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                        <text>CR原版拼读绘本阅读</text>
+                    </view>
+                    <view class="card-item-amount">
+                        <view>111人参加</view>
+                        <view class="line">|</view>
+                        <view>92次打卡</view>
+                    </view>
+                </view>
+            </view>
+        </button>
+        <button data-action="bindNavigator" data-classfiy="href" data-habitid="191234" data-mta="habit_detail" data-sort="7" data-source="card" data-url="../habit_detail/habit_detail?habitID=191234&amp;habitFrom=hot" form-type="submit" hover-class="none">
+            <view class="card-item-one">
+                <view class="card-item-left">
+                    <image src="http://oss.sharedaka.com/FsJTTPbUVwwvaG0CLKF7Lk0sc24s?x-oss-process=image/resize,m_mfit,h_200,w_300">
+                        <div style="background-image: url(http://oss.sharedaka.com/FsJTTPbUVwwvaG0CLKF7Lk0sc24s?x-oss-process=image/resize,m_mfit,h_200,w_300); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="card-item-right">
+                    <view class="card-item-title">
+                        <text>Dr Dave's Daily Dr Dave's Daily </text>
+                    </view>
+                    <view class="card-item-intro">
+                        <text>每天一个实用日常口语</text>
+                    </view>
+                    <view class="card-item-author">
+                        <image class="card-item-avatar" src="http://oss.sharedaka.com/20171216053136394hxHCyX.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-image: url(http://oss.sharedaka.com/20171216053136394hxHCyX.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                        <text>Dr. Dave 大为博士</text>
+                    </view>
+                    <view class="card-item-amount">
+                        <view>3675人参加</view>
+                        <view class="line">|</view>
+                        <view>8084次打卡</view>
+                    </view>
+                </view>
+            </view>
+        </button>
+        <button data-action="bindNavigator" data-classfiy="href" data-habitid="119993" data-mta="habit_detail" data-sort="8" data-source="card" data-url="../habit_detail/habit_detail?habitID=119993&amp;habitFrom=hot" form-type="submit" hover-class="none">
+            <view class="card-item-one">
+                <view class="card-item-left">
+                    <image src="http://oss.sharedaka.com/tmp_56f99dae6255ac4ff43db1b776a424cf.jpg?x-oss-process=image/resize,m_mfit,h_200,w_300">
+                        <div style="background-image: url(http://oss.sharedaka.com/tmp_56f99dae6255ac4ff43db1b776a424cf.jpg?x-oss-process=image/resize,m_mfit,h_200,w_300); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="card-item-right">
+                    <view class="card-item-title">
+                        <text>坚持运动100天</text>
+                    </view>
+                    <view class="card-item-intro">
+                        <text>每天8000步，运动减脂</text>
+                    </view>
+                    <view class="card-item-author">
+                        <image class="card-item-avatar" src="http://oss.sharedaka.com/ochvq0NkxoevvcEQHrpJCjLZXPFs1511695633?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-image: url(http://oss.sharedaka.com/ochvq0NkxoevvcEQHrpJCjLZXPFs1511695633?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                        <text>随遇而安</text>
+                    </view>
+                    <view class="card-item-amount">
+                        <view>856人参加</view>
+                        <view class="line">|</view>
+                        <view>5126次打卡</view>
+                    </view>
+                </view>
+            </view>
+        </button>
+        <button data-action="bindNavigator" data-classfiy="href" data-habitid="194960" data-mta="habit_detail" data-sort="9" data-source="card" data-url="../habit_detail/habit_detail?habitID=194960&amp;habitFrom=hot" form-type="submit" hover-class="none">
+            <view class="card-item-one">
+                <view class="card-item-left">
+                    <image src="http://oss.sharedaka.com/FnZn8ibBiGSEumefYewEiYOcXpBM?x-oss-process=image/resize,m_mfit,h_200,w_300">
+                        <div style="background-image: url(http://oss.sharedaka.com/FnZn8ibBiGSEumefYewEiYOcXpBM?x-oss-process=image/resize,m_mfit,h_200,w_300); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                        <virtual></virtual>
+                    </image>
+                </view>
+                <view class="card-item-right">
+                    <view class="card-item-title">
+                        <text>韩语发音学习及纠正课程｜一个月会读所有韩文字</text>
+                    </view>
+                    <view class="card-item-intro">
+                        <text>一个月读会所有韩文字</text>
+                    </view>
+                    <view class="card-item-author">
+                        <image class="card-item-avatar" src="http://oss.sharedaka.com/20171219234027838GATLNi.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                            <div style="background-image: url(http://oss.sharedaka.com/20171219234027838GATLNi.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                            <virtual></virtual>
+                        </image>
+                        <text>木槿韩语—小吴老师</text>
+                    </view>
+                    <view class="card-item-amount">
+                        <view>43人参加</view>
+                        <view class="line">|</view>
+                        <view>171次打卡</view>
+                    </view>
+                </view>
+            </view>
+        </button>
+    </view>
+</form>

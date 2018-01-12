@@ -1,0 +1,119 @@
+<form report-submit="">
+    <navigator url="../mySeting/mySeting" class="user_card_group" data-action="bindNavigator" data-func="href_user_data" data-url="../user_data/user_data?habitFrom=mine" form-type="submit" hover-class="none">
+        <view class="user-avatar">
+            <image src="http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                <div style="background-image: url(http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                <virtual></virtual>
+            </image>
+        </view>
+        <view class="user-name mr-10">
+            <view class="nickName">柴凯翔</view>
+            <view class="userID">用户ID: 4741395</view>
+        </view>
+        <view class="next" style="align-items: center">
+            <text class="mr-10" style="font-size: 12px;position: relative;top: -1px;">修改个人资料</text>
+            <i class="icon icon_drop_right"></i>
+        </view>
+    </navigator>
+    <view class="menu-list bt-20">
+        <button class="xui-cell xui-cell_access" data-action="bindNavigator" data-classfiy="href" data-mta="mine_comment" data-url="../mine_comment/mine_comment" form-type="submit" hover-class="none">
+            <view class="xui-cell__hd" style="display: flex">
+                <i class="icon icon_comment_block mr-30" style="font-size: 26px;line-height:1;color: #348BED;"></i>
+            </view>
+            <view class="xui-cell__bd">
+                <text style="line-height: 1">我的评论</text>
+            </view>
+            <view class="xui-cell__ft xui-cell__ft_in-access"></view>
+        </button>
+        <button class="xui-cell xui-cell_access" data-action="bindNavigator" data-classfiy="href" data-mta="mine_liked" data-url="../mine_liked/mine_liked" form-type="submit" hover-class="none">
+            <view class="xui-cell__hd" style="display: flex">
+                <i class="icon icon_zan_block mr-30" style="font-size: 26px;line-height:1;color: #FF5A5F;"></i>
+            </view>
+            <view class="xui-cell__bd">
+                <text style="line-height: 1">我的赞</text>
+            </view>
+            <view class="xui-cell__ft xui-cell__ft_in-access"></view>
+        </button>
+        <button class="xui-cell xui-cell_access" data-action="bindNavigator" data-classfiy="href" data-mta="mine_liked" data-url="../mine_menu/mine_menu" form-type="submit" hover-class="none">
+            <view class="xui-cell__hd" style="display: flex">
+                <i class="icon icon_setting_block mr-30" style="font-size: 26px;line-height:1;color: #507BE4;"></i>
+            </view>
+            <view class="xui-cell__bd">
+                <text style="line-height: 1">设置</text>
+            </view>
+            <view class="xui-cell__ft xui-cell__ft_in-access"></view>
+        </button>
+    </view>
+    <view class="page-title bt-20">
+        <text>我的打卡日记</text>
+    </view>
+    <view style="padding: 0 9px;">
+        <view class="comment-packing">
+            <view class="feed-ctn">
+                <view class="feed-group">
+                    <view class="feed-group__hd">
+                        <button class="avatar-box" data-url="../user_story/user_story?openId=ochvq0DdhCo-wTq7wri35MOuGLwM?habitID=120718" form-type="submit" hover-class="none">
+                            <image class="avatar" mode="aspectFill" src="http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                                <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/20180102151324031JIaTIC.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200);"></div>
+                                <virtual></virtual>
+                            </image>
+                            <view class="icon_sex_box"><i class="icon icon_man_new"></i></view>
+                        </button>
+                    </view>
+                    <view class="feed-group__bd">
+                        <button class="title-group" data-url="../user_story/user_story?openId=ochvq0DdhCo-wTq7wri35MOuGLwM?habitID=120718" form-type="submit" hover-class="none">
+                            <view class="title" style="color: #576B95;">柴凯翔</view>
+                        </button>
+                        <view class="title-sub">
+                            <text>18-01-05 10:39</text>
+                            <text class="mlr-10">··</text>
+                            <text>已坚持 1天</text>
+                        </view>
+                        <view class="text-ctn mt-10">
+                            <text data-text="11">1111</text>
+                        </view>
+                        <button class="detail-ctn mt-20" data-action="bindNavigator" data-url="../habit_detail/habit_detail?habitID=120718?habitFrom=mine" form-type="submit" hover-class="none">
+                            <view class="detail-ctn_banner">
+                                <image mode="aspectFill" src="http://oss.sharedaka.com/tmp_830616d5e123420b715883009dc797121ee8bc34cbcde94c.jpg?x-oss-process=image/resize,m_mfit,h_50,w_50">
+                                    <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/tmp_830616d5e123420b715883009dc797121ee8bc34cbcde94c.jpg?x-oss-process=image/resize,m_mfit,h_50,w_50);"></div>
+                                    <virtual></virtual>
+                                </image>
+                            </view>
+                            <view class="detail-ctn_title ml-10">
+                                <text>＃好好写字社群＃每天写一句触碰心灵的话</text>
+                            </view>
+                        </button>
+                        <view class="controller-wrap mt-30">
+                            <button class="item" data-action="bindNavigator" data-classfiy="href" data-mta="note_detail" data-url="../note_detail/note_detail?noteID=11214631?noteFrom=mine" form-type="submit" hover-class="none"><i class="icon icon_detail mr-10"></i>
+                                <text>详情</text>
+                            </button>
+                            <button class="item" data-action="bindNavigator" data-classfiy="href" data-func="comment_ing" data-index="0" data-mta="habit_comment" data-noteid="11214631" data-type="1" data-url="../habit_comment/habit_comment?habitID=?noteID=11214631?commentType=1?replyType=0?commentIdx=0?noteFrom=mine" form-type="submit" hover-class="none"><i class="icon icon_talking mr-10"></i>
+                                <text>评论</text>
+                            </button>
+                            <button class="item" data-action="bindLike" data-classfiy="event" data-index="0" data-mta="liked" data-noteid="11214631" form-type="submit" hover-class="none"><i class="icon icon_zan mr-10"></i>
+                                <text style="">赞</text>
+                            </button>
+                        </view>
+                        <view class="remark-group"></view>
+                        <view class="comment-group comment-group--feed"></view>
+                    </view>
+                </view>
+            </view>
+      </view>
+      <view class="weui-loadmore weui-loadmore_line weui-loadmore_dot"><view class="weui-loadmore__tips weui-loadmore__tips_in-line weui-loadmore__tips_in-dot"></view></view>
+    </view>
+    <view class="no-data-box" style="display: none;">
+        <view class="no-data-image">
+          <image src="http://img.sharedaka.com/data/null_list.png">
+            <div style="background-image: url(http://img.sharedaka.com/data/null_list.png); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+            <virtual></virtual>
+          </image>
+        </view>
+        <view class="no-data-desc">
+          <view>暂无打卡日记～</view>
+          <view>快去发布打卡日记吧
+            <button class="under_line" data-action="bindNavigatorToHabitList" data-classfiy="href" data-mta="index" data-zhuge="去打卡列表" form-type="submit" hover-class="none" style="display: inline">去打卡列表</button>
+          </view>
+        </view>
+      </view>
+</form>

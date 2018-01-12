@@ -1,0 +1,255 @@
+<view class="container">
+  <view class="title-top">
+    <view class="h2">
+      
+        <view class="ico"></view>
+        <text>课程名称</text>
+      
+    </view>
+    <view class="title">
+      <text>每天读书 每天一段话</text>
+    </view>
+    <view class="ico tit_left"></view>
+    <view class="ico tit_right"></view>
+  </view>
+  <view class="ranking rankMonthly">
+    <view class="switch">
+      <text>点击切换周榜</text>
+    </view>
+  </view>
+  <view class="ranking-user">
+    <view class="user">
+      <view class="user-profile">
+        <image background-size="cover" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2018/01/02/ecf40444-6a13-45bb-9633-d2bf39a540c0.jpg">
+          <div style="background-size: cover; background-repeat: no-repeat; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2018/01/02/ecf40444-6a13-45bb-9633-d2bf39a540c0.jpg);"></div>
+          <virtual></virtual>
+        </image>
+        <view class="nick">柴凯翔</view>
+      </view>
+      <view class="rank">
+        <view class="item">
+          <text class="item-name">排名</text>
+          <text class="item-data">--</text>
+        </view>
+        <view class="item">
+          <text class="item-name">总次数</text>
+          <text class="item-data">00</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="ranking-list">
+    <view class="people">
+      <text>打卡总人数：6369人</text>
+    </view>
+    <view class="switch-rank-container">
+      <view class="switch-rank">
+        <text>切换分数排名</text>
+      </view>
+      <view class="switch-rank" hidden="">
+        <text>切换次数排名</text>
+      </view>
+    </view>
+    <view class="list">
+      <view class="ul">
+        <view class="li no1">
+          <view class="img">
+            <view class="rank">1</view>
+            <image background-size="cover" data-userid="86941" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/14fff82c-abe7-4d19-940c-b4d030e97794.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/14fff82c-abe7-4d19-940c-b4d030e97794.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">CynthiaCynthia</text>
+            </view>
+            <view class="fr">
+              <text>68次</text>
+            </view>
+          </view>
+        </view>
+        <view class="li no2">
+          <view class="img">
+            <view class="rank">2</view>
+            <image background-size="cover" data-userid="89767" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/d8685e93-cd2d-4ee5-9166-08cacbca5859.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/d8685e93-cd2d-4ee5-9166-08cacbca5859.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">HuangHuang</text>
+            </view>
+            <view class="fr">
+              <text>68次</text>
+            </view>
+          </view>
+        </view>
+        <view class="li no3">
+          <view class="img">
+            <view class="rank">3</view>
+            <image background-size="cover" data-userid="82674" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/28/89fdccb1-0953-4610-a5bb-1f3c76d5a8ec.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/28/89fdccb1-0953-4610-a5bb-1f3c76d5a8ec.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">文哥</text>
+            </view>
+            <view class="fr">
+              <text>68次</text>
+            </view>
+          </view>
+        </view>
+        <view class="li">
+          <view class="img">
+            <view class="rank">4</view>
+            <image background-size="cover" data-userid="84542" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/c30aedb9-cfdc-40e7-81ac-aef0f62a760d.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/c30aedb9-cfdc-40e7-81ac-aef0f62a760d.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">岁月静好</text>
+            </view>
+            <view class="fr">
+              <text>67次</text>
+            </view>
+          </view>
+        </view>
+        <view class="li">
+          <view class="img">
+            <view class="rank">5</view>
+            <image background-size="cover" data-userid="70647" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/11/9f8335c0-663c-415b-abc4-5d2c5b27510b.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/11/9f8335c0-663c-415b-abc4-5d2c5b27510b.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">四排-橙晨-招商-桂林阳朔</text>
+            </view>
+            <view class="fr">
+              <text>67次</text>
+            </view>
+          </view>
+        </view>
+        <view class="li">
+          <view class="img">
+            <view class="rank">6</view>
+            <image background-size="cover" data-userid="85521" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/a251faa4-9e64-44e6-8c59-796bd6a6596e.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/a251faa4-9e64-44e6-8c59-796bd6a6596e.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">雪儿</text>
+            </view>
+            <view class="fr">
+              <text>67次</text>
+            </view>
+          </view>
+        </view>
+        <view class="li">
+          <view class="img">
+            <view class="rank">7</view>
+            <image background-size="cover" data-userid="86577" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/71b4d520-3f70-4d06-b39b-be3ca6d01d0a.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/71b4d520-3f70-4d06-b39b-be3ca6d01d0a.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">新星</text>
+            </view>
+            <view class="fr">
+              <text>67次</text>
+            </view>
+          </view>
+        </view>
+        <view class="li">
+          <view class="img">
+            <view class="rank">8</view>
+            <image background-size="cover" data-userid="28783" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/08/14/90d4afb1-4a46-4de6-b833-f54ee3ca7e25.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/08/14/90d4afb1-4a46-4de6-b833-f54ee3ca7e25.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">雪</text>
+            </view>
+            <view class="fr">
+              <text>67次</text>
+            </view>
+          </view>
+        </view>
+        <view class="li">
+          <view class="img">
+            <view class="rank">9</view>
+            <image background-size="cover" data-userid="17801" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/08/04/71e97a59-90a5-49f9-869a-9425be483753.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/08/04/71e97a59-90a5-49f9-869a-9425be483753.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">瑛子</text>
+            </view>
+            <view class="fr">
+              <text>67次</text>
+            </view>
+          </view>
+        </view>
+        <view class="li">
+          <view class="img">
+            <view class="rank">10</view>
+            <image background-size="cover" data-userid="85079" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/34d20031-88da-41a2-8aae-e4704fd6c879.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/10/29/34d20031-88da-41a2-8aae-e4704fd6c879.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">左岸°掌心里の痣</text>
+            </view>
+            <view class="fr">
+              <text>67次</text>
+            </view>
+          </view>
+        </view>
+        <view class="li">
+          <view class="img">
+            <view class="rank">11</view>
+            <image background-size="cover" data-userid="4045" src="https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/08/01/bdac680a-03bb-4488-a24f-cc4187c32ecc.jpg">
+              <div style="background-size: cover; background-image: url(https://jingdaka.oss-cn-shanghai.aliyuncs.com/wx/face/2017/08/01/bdac680a-03bb-4488-a24f-cc4187c32ecc.jpg); background-repeat: no-repeat;"></div>
+              <virtual></virtual>
+            </image>
+          </view>
+          <view class="text">
+            <view class="fl">
+              <text class="name">原圆|100天写作UP</text>
+            </view>
+            <view class="fr">
+              <text>67次</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="nodata" hidden="true">
+    <view class="ico"></view>
+    <view>
+      <text>什么都没有</text>
+    </view>
+  </view>
+  <view class="share" hidden="true">
+    <view class="text2"></view>
+    <view class="bg"></view>
+  </view>
+</view>

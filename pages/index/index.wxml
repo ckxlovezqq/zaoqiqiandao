@@ -1,0 +1,224 @@
+<view class="page">
+    <form report-submit="">
+        <!-- view class="banner-packing">
+            <view class="bd">
+                <button hover-class="none" open-type="getUserInfo" style="line-height: 1;overflow: hidden">
+                    <image class="avatar" mode="aspectFill" src="http://oss.sharedaka.com/20180105105217083kVfcMy.png?x-oss-process=image/resize,m_fixed,h_200,w_200" style="border-radius: 50%">
+                        <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/20180105105217083kVfcMy.png?x-oss-process=image/resize,m_fixed,h_200,w_200);"></div>
+                        <virtual></virtual>
+                    </image>
+                </button>
+               <view class="name">
+                    <view class="clock-btn">
+                        <text>打卡</text>
+                    </view>
+                </view>
+            </view>
+            <image class="bg" src="http://oss.sharedaka.com/data/index_banner.png?x-oss-process=image/resize,m_fixed,h_375,w_750">
+                <div style="background-image: url(http://oss.sharedaka.com/data/index_banner.png?x-oss-process=image/resize,m_fixed,h_375,w_750); background-size: 100% 100%; background-repeat: no-repeat;"></div>
+                <virtual></virtual>
+            </image>
+            <view class="content">
+                <view><i class="icon icon-time mr-10"></i>19:30</view>
+                <view class="ml-30"><i class="icon icon-personal mr-10"></i>0人已打卡</view>
+            </view>
+        </view> -->
+        <view class="banner-packing">
+            <view class="banner-packing_hd">
+                <button data-type="normal" hover-class="none" open-type="share">
+                    <view class="share-btn-group">
+                        <i class="icon icon_share"></i>
+                        <text>邀请好友</text>
+                    </view>
+                </button>
+            </view>
+            <view class="banner-packing_bd" style="width: 100%">
+                <view class="title-group">
+                    <view class="title-group_title">
+                        每天学点管理知识
+                        <view class="global-badge_pro plr-10" style="display: inline-block;">
+                            <image class="badge" src="https://oss.sharedaka.com/data/habit_pro_badge.png" style="position:relative;top: 3px;width: 19px;height: 19px">
+                            </image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <image class="bg" mode="aspectFill" src="http://oss.sharedaka.com/FvBaiVjbUVvE3zS15CRH5DTFqYuF?x-oss-process=image/resize,m_mfit,h_375,w_750">
+            </image>
+        </view>
+        <view class="personal-packing">
+            <view class="personal-des">
+                <text class="des">{{people_cont}}人已参加</text>
+                <text class="line"></text>
+                <text class="des">7820次打卡</text>
+            </view>
+            <button class="personal-group" data-action="bindTipsJoinDetail" form-type="submit" hover-class="none" style="line-height: 1">
+                <view class="avatar-item">
+                    <image src="http://oss.sharedaka.com/ochvq0N12QWlzqJjpgZkc7qoFL-Q1511555609?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                    </image>
+                </view>
+                <view class="avatar-item">
+                    <image src="http://wx.qlogo.cn/mmopen/vi_32/xxPhEtd8Z3cBp27hC8lE5XBJYvwZGInNTuZdx2XBhLgoTM1udQxSRibNSY97B0D55L41ia0nvRz0GaQicFnjCZ7Lw/0">
+                    </image>
+                </view>
+                <view class="avatar-item">
+                    <image src="http://oss.sharedaka.com/20180108165936297MCQkXr.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                    </image>
+                </view>
+                <view class="avatar-item">
+                    <image src="http://oss.sharedaka.com/ochvq0O6il2pSROmFVZyjwjHz6_o1511323927?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                    </image>
+                </view>
+                <view class="avatar-item">
+                    <image src="http://oss.sharedaka.com/20180105032846000gcAtWr.jpeg?x-oss-process=image/resize,m_fixed,h_200,w_200">
+                    </image>
+                </view>
+            </button>
+        </view>
+        <navigator class="new-clock-btn" url="../new/new" data-action="bindCreateHabit" data-classfiy="href" data-mta="habit_create" data-zhuge="创建新打卡" form-type="submit"><i class="icon icon_plus_solid"></i>创建一个新的打卡
+        </navigator>
+        <view class="clock-packing">
+            <view class="habit_list_packing mb-10">
+                <view class="title mb-10">
+                    <view>我管理的打卡</view>
+                    <button class="icon icon_share mr-25" data-action="bindShowDelBtn" data-classfiy="event" data-mta="showDelBtn" data-type="1" open-type="share" hover-class="none"></button>
+                </view>
+                <navigator class="clock-item" url="../desc/desc?id=1">
+                    <view class="clock-item__hd">
+                        <image class="avatar" mode="aspectFill" src="http://oss.sharedaka.com/bannerimg/12_1.jpg?x-oss-process=image/resize,m_mfit,h_160,w_160">
+                            <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/bannerimg/12_1.jpg?x-oss-process=image/resize,m_mfit,h_160,w_160);"></div>
+                            <virtual></virtual>
+                        </image>
+                    </view>
+                    <view class="clock-item__bd">
+                        <view class="title">11</view>
+                        <view class="creator">
+                            <image class="mr-10" mode="aspectFill" src="http://oss.sharedaka.com/20180105105217083kVfcMy.png">
+                                <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/20180105105217083kVfcMy.png);"></div>
+                                <virtual></virtual>
+                            </image>
+                            <text>柴凯翔</text>
+                        </view>
+                        <view class="content">
+                            <view><i class="icon icon-time mr-10"></i>19:30</view>
+                            <view class="ml-30"><i class="icon icon-personal mr-10"></i>0人已打卡</view>
+                        </view>
+                    </view>
+                    <view class="clock-item__ft">
+                        <view class="clock-btn had">
+                            <text>已打卡</text>
+                        </view>
+                    </view>
+                </navigator>
+                <view class="title mb-10">
+                    <view></view>
+                    <button class="icon icon_share mr-25" data-action="bindShowDelBtn" data-classfiy="event" data-mta="showDelBtn" data-type="1" open-type="share" hover-class="none"></button>
+                </view>
+                <navigator class="clock-item" url="../desc/desc?id=1">
+                    <view class="clock-item__hd">
+                        <image class="avatar" mode="aspectFill" src="http://oss.sharedaka.com/bannerimg/12_1.jpg?x-oss-process=image/resize,m_mfit,h_160,w_160">
+                            <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/bannerimg/12_1.jpg?x-oss-process=image/resize,m_mfit,h_160,w_160);"></div>
+                            <virtual></virtual>
+                        </image>
+                    </view>
+                    <view class="clock-item__bd">
+                        <view class="title">11</view>
+                        <view class="creator">
+                            <image class="mr-10" mode="aspectFill" src="http://oss.sharedaka.com/20180105105217083kVfcMy.png">
+                                <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/20180105105217083kVfcMy.png);"></div>
+                                <virtual></virtual>
+                            </image>
+                            <text>柴凯翔</text>
+                        </view>
+                        <view class="content">
+                            <view><i class="icon icon-time mr-10"></i>19:30</view>
+                            <view class="ml-30"><i class="icon icon-personal mr-10"></i>0人已打卡</view>
+                        </view>
+                    </view>
+                    <view class="clock-item__ft">
+                        <view class="clock-btn">
+                            <text>打卡</text>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+            <view class="habit_list_packing">
+                <view class="title mb-10 mt-40">
+                    <view>我参加的打卡</view>
+                    <button class="icon icon_share mr-25" data-action="bindShowDelBtn" data-classfiy="event" data-mta="showDelBtn" data-type="2" open-type="share" hover-class="none"></button>
+                </view>
+                <bliock>
+                    <navigator class="clock-item" url="../desc/desc?id=1" data-action="bindGoUrl" data-classfiy="href" data-habit-id="102931" data-mta="跳转到打卡详情" data-track-type="2" form-type="submit">
+                        <view class="clock-item__hd">
+                            <image class="avatar" mode="aspectFill" src="http://oss.sharedaka.com/FvBaiVjbUVvE3zS15CRH5DTFqYuF?x-oss-process=image/resize,m_mfit,h_160,w_160">
+                                <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/FvBaiVjbUVvE3zS15CRH5DTFqYuF?x-oss-process=image/resize,m_mfit,h_160,w_160);"></div>
+                                <virtual></virtual>
+                            </image>
+                        </view>
+                        <view class="clock-item__bd">
+                            <view class="title">每天学点管理知识</view>
+                            <view class="creator">
+                                <image class="mr-10" mode="aspectFill" src="http://oss.sharedaka.com/ochvq0Ab2Pgp8JzJtD9Bkhak9Wt41508908192">
+                                    <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/ochvq0Ab2Pgp8JzJtD9Bkhak9Wt41508908192);"></div>
+                                    <virtual></virtual>
+                                </image>
+                                <text>小氢</text>
+                            </view>
+                            <view class="content">
+                                <view><i class="icon icon-time mr-10"></i>19:00</view>
+                                <view class="ml-30"><i class="icon icon-personal mr-10"></i>163人已打卡</view>
+                            </view>
+                        </view>
+                        <view class="clock-item__ft">
+                            <view class="clock-btn had">
+                                <text>已打卡</text>
+                            </view>
+                        </view>
+                    </navigator>
+                    <view class="title mb-10">
+                        <view></view>
+                        <button class="icon icon_share mr-25" data-action="bindShowDelBtn" data-classfiy="event" data-mta="showDelBtn" data-type="1" open-type="share" hover-class="none"></button>
+                    </view>
+                    <navigator class="clock-item" url="../desc/desc?id=1" data-action="bindGoUrl" data-classfiy="href" data-habit-id="102931" data-mta="跳转到打卡详情" data-track-type="2" form-type="submit">
+                        <view class="clock-item__hd">
+                            <image class="avatar" mode="aspectFill" src="http://oss.sharedaka.com/FvBaiVjbUVvE3zS15CRH5DTFqYuF?x-oss-process=image/resize,m_mfit,h_160,w_160">
+                                <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/FvBaiVjbUVvE3zS15CRH5DTFqYuF?x-oss-process=image/resize,m_mfit,h_160,w_160);"></div>
+                                <virtual></virtual>
+                            </image>
+                        </view>
+                        <view class="clock-item__bd">
+                            <view class="title">每天学点管理知识</view>
+                            <view class="creator">
+                                <image class="mr-10" mode="aspectFill" src="http://oss.sharedaka.com/ochvq0Ab2Pgp8JzJtD9Bkhak9Wt41508908192">
+                                    <div style="background-size: cover; background-position: center center; background-repeat: no-repeat; background-image: url(http://oss.sharedaka.com/ochvq0Ab2Pgp8JzJtD9Bkhak9Wt41508908192);"></div>
+                                    <virtual></virtual>
+                                </image>
+                                <text>小氢</text>
+                            </view>
+                            <view class="content">
+                                <view><i class="icon icon-time mr-10"></i>19:00</view>
+                                <view class="ml-30"><i class="icon icon-personal mr-10"></i>163人已打卡</view>
+                            </view>
+                        </view>
+                        <view class="clock-item__ft">
+                            <view class="clock-btn">
+                                <text>打卡</text>
+                            </view>
+                        </view>
+                    </navigator>
+                </bliock>
+            </view>
+            <button data-classfiy="event" form-type="submit" data-action="bindNavigator" data-method="redirectTo" class="weui-btn create-btn" data-mta="change_study_entry" data-url="../admin_module/pages/habit_detail_old/habit_detail_old?habitID=247246">
+                <view>管理入口</view>
+            </button>
+        </view>
+        <!-- <button class="habit_recommend_box__more" data-action="bindSwitchTab" data-type="recommend_more" data-url="../hot/hot" form-type="submit" hover-class="none" style="border: 1px solid #1aaba8;color: #1aaba8;">发现更多精彩 </button>
+        <view class="footer-packing mt-40">
+            <button class="more-history" data-action="bindNavigator" data-classfiy="href" data-mta="habit_history" data-url="../habit_history/habit_history" data-zhuge="进入历史打卡" form-type="submit" hover-class="none">
+                <text>更多历史打卡</text><i class="icon icon_drop_right"></i></button>
+            <button class="advice mt-40" data-action="bindNavigator" data-classfiy="href" data-mta="feed_back" data-url="../feed_back/feed_back?adviceFrom=index" data-zhuge="进入意见反馈页" form-type="submit" hover-class="none">
+                <text>意见反馈意见反馈</text>
+            </button>
+        </view> -->
+    </form>
+</view>
