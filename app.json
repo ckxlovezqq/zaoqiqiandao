@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/find/find",
+    "pages/my/my",
+    "pages/rank/rank",
+    "pages/new/new",
+    "pages/desc/desc",
+    "pages/mySeting/mySeting"
+  ],
+  "window": {
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1DACA9",
+    "navigationBarTitleText": "早起打卡",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "打卡",
+        "iconPath": "static/icons/ic_menu_choice_nor.png",
+        "selectedIconPath": "static/icons/ic_menu_choice_pressed.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "static/icons/ic_menu_shoping_nor.png",
+        "selectedIconPath": "static/icons/ic_menu_shoping_pressed.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/icons/ic_menu_me_nor.png",
+        "selectedIconPath": "static/icons/ic_menu_me_pressed.png"
+      }
+    ]
+  }
+}
